@@ -16,7 +16,7 @@ public class App
         //integrantes da equipe 
         System.out.println("1. Luciano Arruda"); // lider da equipe
         System.out.println("2. José Chrystian");
-        System.out.printLn("3. Gustavo Silveira");
-        System.out.printLn("4. Kevin Kasantaroeno");//@kevinkasantaroeno - Membro
+        System.out.println("3. Gustavo Silveira");
+        System.out.println("4. Kevin Kasantaroeno");//@kevinkasantaroeno - Membro
     }
 }
