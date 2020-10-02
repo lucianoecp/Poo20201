@@ -18,5 +18,6 @@ public class App
         System.out.println("2. José Chrystian");
         System.out.println("3. Gustavo Silveira");
         System.out.println("4. Kevin Kasantaroeno");//@kevinkasantaroeno - Membro
+        System.out.println("5. Igor Ximenes");
     }
 }
