@@ -1,0 +1,18 @@
+package edu.poo.app;
+
+/**
+ * Comentário para documentação
+ */
+
+
+public class App 
+{
+    /*
+    Comentário de múltipla linha
+    */
+    public static void main(String[] args)
+    {
+        System.out.println("Equipe 5:\n");
+        System.out.println("1. José Chrystian");
+    }
+}
