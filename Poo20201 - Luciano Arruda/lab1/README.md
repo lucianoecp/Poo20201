@@ -2,6 +2,7 @@
 ### Laboratório 1 - Criando uma aplicação
 
 ##### Aluno: Luciano Arruda
+##### Equipe 5
 
 
 
