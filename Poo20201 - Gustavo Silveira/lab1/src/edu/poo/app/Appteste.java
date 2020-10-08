@@ -1,5 +1,5 @@
 //criando um projeto 
-package edu.poo.appteste;  //pacote 
+package edu.poo.app;  //pacote 
 
 public class Appteste {  //classe
     public static void main(String[] args){
