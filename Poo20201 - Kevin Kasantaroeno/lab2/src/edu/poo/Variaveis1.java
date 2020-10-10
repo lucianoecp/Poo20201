@@ -2,9 +2,9 @@ package edu.poo;
 
 public class Variaveis1 {
     public static void main(String[] args){
-        int valorDado = 200;
+        int valorDado = 999;
 
-        int dado = 200;
+        int dado = 999;
         System.out.println(dado);
 
         int total;
