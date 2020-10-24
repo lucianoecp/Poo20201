@@ -1,30 +1,35 @@
 public class Matrizes1 {
-	
-	public static void main(String[] args) {
-		// matrizes
-		//float[] valores = new float[3];
-		//valores[0] = 10.0f;
-		//valores[1] = 20.0f;
-		//valores[2] = 15.0f;
 
-		float[][] valores = new float[3][3];
+  public static void main(String[] args) {
+    // Definindo os Arrays
+    String equipe[][];
+    // Criando os Arrays
+    equipe = new String[5][2];
 
-		//float[] valores = { 10.0f, 20.0f, 15.0f };
+	// Carregando dados no Array
+	equipe[0][0] = "Luciano";
+	equipe[0][1] = "Arruda";
+	equipe[1][0] = "Kevin";
+	equipe[1][1] = "Kasantaroeno";
+	equipe[2][0] = "Gustavo";
+	equipe[2][1] = "Silveira";
+	equipe[3][0] = "Chrystian";
+	equipe[3][1] = "Pacheco";
+	equipe[4][0] = "Igor";
+	equipe[4][1] = "Ximenes";
 
-		//float soma = 0.0f;
+	for(int lin=0; lin<5; lin++)
+	{
+		System.out.print("Membro "+(lin+1)+": ");
 
-		//for(int i= 0; i < valores.length; i++)
-		//	soma += valores[i];
-
-		for (int i = 0; i < valores.length; i++) {
-			for (int j = 0; j < valores[0].length; j++) {
-				System.out.print(valores[i][j] + "\t");
-			}
-
-			System.out.println();
+		for(int col = 0; col<2; col++)
+		{
+			System.out.print(" "+equipe[lin][col]);
 		}
-
-		//System.out.println(soma);
+		System.out.println("");
 	}
 
+
+
+  }
 }
